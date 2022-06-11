@@ -2,4 +2,4 @@
 Description=Notify when the battery is low and the computer is discharching.
 
 [Service]
-ExecStart=lowbattery
+ExecStart=sh -c ~/.local/bin/lowbattery
