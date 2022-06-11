@@ -1,0 +1,5 @@
+[Unit]
+Description=Notify when the battery is low and the computer is discharching.
+
+[Service]
+ExecStart=lowbattery.sh
