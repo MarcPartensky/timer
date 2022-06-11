@@ -2,8 +2,7 @@
 Description=Notify when the battery is low and the computer is discharging.
 
 [Timer]
-; OnBootSec=15min
-OnUnitActiveSec=1m
+OnCalendar=*-*-* *:*:00
 
 [Install]
 WantedBy=timers.target
