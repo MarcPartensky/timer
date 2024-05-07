@@ -1,0 +1,13 @@
+[Unit]
+Description=Notify when the battery is low and the computer is discharging.
+
+[Timer]
+OnCalendar=*-*-* *:*:*
+
+[Install]
+WantedBy=timers.target
+
+
+[Service]
+# WorkingDirectory=/path/to/script
+ExecStart=sh -c ~/.local/bin/lowram

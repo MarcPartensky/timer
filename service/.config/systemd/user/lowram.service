@@ -1,0 +1,5 @@
+[Unit]
+Description=Notify when the ram is low and the computer is overloading.
+
+[Service]
+ExecStart=sh -c ~/.local/bin/lowram
