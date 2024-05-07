@@ -2,7 +2,8 @@
 Description=Notify when the battery is low and the computer is discharging.
 
 [Timer]
-OnCalendar=*-*-* *:*:0
+# OnCalendar=*-*-* *:*:0
+OnCalendar=*:0/5
 
 [Install]
 WantedBy=timers.target
