@@ -8,6 +8,6 @@ OnCalendar=*-*-* 22:00:00
 [Install]
 WantedBy=timers.target
 
-# [Service]
-# WorkingDirectory=/path/to/script
-# ExecStart=sh -c ~/.local/bin/lowbattery
+[Service]
+WorkingDirectory=/path/to/script
+ExecStart=sh -c ~/.local/bin/dayshift
