@@ -3,3 +3,6 @@ Description=Notify when the battery is low and the computer is discharching.
 
 [Service]
 ExecStart=brightnessctl s 1%
+
+[Install]
+WantedBy=graphical.target

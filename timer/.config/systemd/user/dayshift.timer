@@ -4,6 +4,8 @@ Description=Switching day
 [Timer]
 OnCalendar=*-*-* 08:00:00
 OnCalendar=*-*-* 22:00:00
+Persistent=true
+WakeSystem=true
 
 [Install]
 WantedBy=timers.target

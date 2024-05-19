@@ -4,3 +4,5 @@ Description=Switching day
 [Service]
 ExecStart=sh -c ~/.local/bin/dayshift
 
+[Install]
+WantedBy=graphical.target
