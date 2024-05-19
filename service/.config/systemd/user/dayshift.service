@@ -1,0 +1,6 @@
+[Unit]
+Description=Switching day
+
+[Service]
+ExecStart=~/.local/share/bin/dayshift
+
