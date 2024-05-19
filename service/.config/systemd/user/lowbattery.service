@@ -5,4 +5,4 @@ Description=Notify when the battery is low and the computer is discharching.
 ExecStart=sh -c ~/.local/bin/lowbattery
 
 [Install]
-WantedBy=graphical.target
+WantedBy=default.target

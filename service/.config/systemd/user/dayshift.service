@@ -5,4 +5,4 @@ Description=Switching day
 ExecStart=sh -c ~/.local/bin/dayshift
 
 [Install]
-WantedBy=graphical.target
+WantedBy=default.target

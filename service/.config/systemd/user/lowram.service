@@ -5,4 +5,4 @@ Description=Notify when the ram is low and the computer is overloading.
 ExecStart=sh -c ~/.local/bin/lowram
 
 [Install]
-WantedBy=graphical.target
+WantedBy=default.target
